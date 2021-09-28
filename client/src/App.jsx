@@ -12,6 +12,7 @@ const cookies = new Cookies();
 
 const apiKey = 'se8c5xtw3vxk';
 
+const authToken = cookies.get("token");
 
 const client = StreamChat.getInstance(apiKey);
 
@@ -20,6 +21,7 @@ const client = StreamChat.getInstance(apiKey);
 
 const App = () => {
   
+    if(!authToken) return <Auth />
 
     return (
         <div className="app__wrapper">
