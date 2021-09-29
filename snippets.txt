@@ -1,0 +1,5 @@
+client:
+npm install stream-chat stream-chat-react universal-cookie
+
+server:
+npm i bcrypt crypto dotenv express getstream stream-chat nodemon twilio cors
