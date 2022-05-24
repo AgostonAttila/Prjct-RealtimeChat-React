@@ -2,3 +2,5 @@
 
 React
 Stream
+
+<img src="pic.png" >
